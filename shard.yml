@@ -1,0 +1,19 @@
+name: fes
+version: 0.1.0
+
+authors:
+  - Ferit <ferit@cryptolab.net>
+
+targets:
+  fes:
+    main: src/fes.cr
+
+crystal: 0.22.0
+
+license: MIT
+
+dependencies:
+    kemal:
+        github: kemalcr/kemal
+        branch: master
+
